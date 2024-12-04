@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+}
+#home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#home img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#home #circle{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+position: absolute;
+width: 70vw;
+height: 70vw;
+border-radius: 50%;
+}
+#circle img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+#top{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#top img{
+   
+    transform: translate(-50%,-50%) rotate(-180deg);
+
+}
+#bottom{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#bottom img:nth-child(1){
+    transform: translate(-50%,-50%) scale(2);
+}
+#bottom img:nth-child(2){
+    transform: translate(-50%,-50%) scale(1.5);
+}
+#bottom img:nth-child(3){
+    transform: translate(-50%,-50%) scale(1);
+}
+#top img:nth-child(1){
+    transform: translate(-50%,-50%) rotate(-180deg) scale(2);
+}
+#top img:nth-child(2){
+    transform: translate(-50%,-50%) rotate(-180deg) scale(1.5);
+}
+#top img:nth-child(3){
+    transform: translate(-50%,-50%) rotate(-180deg) scale(1);
+}
+#overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    overflow: hidden;
+}
+#smcircle{
+    position: absolute;
+    width: 45vw;
+    height: 45vw;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+#clr{
+    display: flex;
+}
+#clr1{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    opacity: 10%;
+}
+#clr2{
+    width: 20px;
+    height: 20px;
+    background-color:black;
+    opacity: 20%;
+}
+#clr3{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    opacity: 30%;
+}
+#clr4{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    opacity: 40%;
+}
+#clr5{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    opacity: 50%;
+}#clr6{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    opacity: 60%;
+}
+#btmnav{
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
